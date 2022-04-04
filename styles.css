@@ -1,0 +1,87 @@
+
+div{
+    padding-top:  1rem;
+}
+.navbar-brand{
+    margin-left: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    
+}
+
+#intro{
+    margin-left:20%;
+    margin-right:20%;
+    margin-top: 2rem;
+   color: black;
+    
+    font-size: 2rem;
+    
+}
+
+
+a{
+    
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* section2 */
+
+h1{
+    text-align: center;
+    margin-top: 2%;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+   }
+.card{
+    margin-left:15% ;
+    margin-right:15% ;
+}
+#footer{
+    margin-top: 3%;
+    text-align: center;
+}
+.social{
+    font-size: 4.5rem;
+}
+
+
+@media (max-width:1184px) 
+{
+    .navbar-item li{
+        margin-left: 10px;
+        display: block;
+     
+        }
+        
+        .part1{
+            
+            margin-right: 3%;
+        }  
+    
+    .price{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    
+    
+}
